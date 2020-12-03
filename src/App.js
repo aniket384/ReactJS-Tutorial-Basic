@@ -7,6 +7,7 @@ import Props from './props'
 import State from './state'
 import HideAndShow from './hideandshow'
 import EventHandling from './EventHandling'
+import LifeCycle from './lifecycle'
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <HideAndShow />
 
       <EventHandling />
+
+      <LifeCycle />
       </header>
     </div>
   );
