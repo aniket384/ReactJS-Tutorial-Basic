@@ -8,6 +8,8 @@ import State from './state'
 import HideAndShow from './hideandshow'
 import EventHandling from './EventHandling'
 import LifeCycle from './lifecycle'
+import ComponentDidUpdate from './componentDidMount'
+import View from './view'
 
 function App() {
   return (
@@ -30,6 +32,10 @@ function App() {
       <EventHandling />
 
       <LifeCycle />
+
+      <ComponentDidUpdate />
+
+      <View />
       </header>
     </div>
   );
