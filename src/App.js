@@ -10,6 +10,7 @@ import EventHandling from './EventHandling'
 import LifeCycle from './lifecycle'
 import ComponentDidUpdate from './componentDidMount'
 import View from './view'
+import Hooks from './hooks'
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
       <ComponentDidUpdate />
 
       <View />
+
+      <Hooks />
       </header>
     </div>
   );
